@@ -82,7 +82,7 @@ public class UserPrincipal implements UserDetails{
 	}
 
 	@Override
-	boolean isAccountNonLocked() {
+	public boolean isAccountNonLocked() {
 		return true;
 	}
 
